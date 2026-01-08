@@ -1,0 +1,20 @@
+{
+  "name": "applitools-demo-tests",
+  "version": "1.0.0",
+  "description": "35 Simple UI Tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test tests/01-authentication.spec.js",
+    "test:dashboard": "playwright test tests/02-dashboard.spec.js",
+    "test:transactions": "playwright test tests/03-transactions.spec.js",
+    "test:ui": "playwright test tests/04-ui-visual.spec.js",
+    "test:functional": "playwright test tests/05-functionality.spec.js",
+    "test:all": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui-mode": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}

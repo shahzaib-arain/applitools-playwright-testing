@@ -1,0 +1,27 @@
+{
+  "baseUrl": "https://demo.applitools.com",
+  "users": {
+    "valid": {
+      "username": "testuser",
+      "password": "testpass"
+    },
+    "invalid": {
+      "username": "wronguser",
+      "password": "wrongpass"
+    },
+    "empty": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "transactions": [
+    {
+      "amount": "100",
+      "description": "Test Transaction 1"
+    },
+    {
+      "amount": "50",
+      "description": "Test Transaction 2"
+    }
+  ]
+}
